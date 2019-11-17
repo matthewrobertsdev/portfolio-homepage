@@ -59,15 +59,15 @@ body{
 
 @media (prefers-color-scheme: dark) {
   body{
-    background-color: rgb(20, 11, 150);
+    background-color: rgb(18, 11, 118);
   }
   .link-button{
-    background-color: rgb(108, 98, 10);
-    color: white;
+    background-color: rgb(255, 230, 0);
+    color: rgb(18, 11, 118);
   }
-.link-button:hover, .link-button:active{
-  background-color: rgb(82, 74, 9);
-}
+  .link-button:hover, .link-button:active {
+    background-color: rgb(255, 251, 0);
+  }
   .text-color{
     color: white;
   }
