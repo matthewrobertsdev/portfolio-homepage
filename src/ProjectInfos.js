@@ -40,4 +40,9 @@ export const softwareDeveloperLinks=new ProjectInfo('Software Developer Link Pag
 new LinkModel('Developer Links Github Repo', 
 'https://github.com/matthewrobertsdev/software-development-links')])
 
-export const projectInfos=[bookmarkPage, keyboard, contactQR, dbConnectionManager, softwareDeveloperLinks];
+export const portfolioPage=new ProjectInfo('Portfolio Page Source', 
+'The Source to My Portfolio Page', 
+[new LinkModel('Portfolio Page Source', 
+'https://github.com/matthewrobertsdev/portfolio/tree/source')])
+
+export const projectInfos=[bookmarkPage, keyboard, contactQR, portfolioPage, dbConnectionManager, softwareDeveloperLinks];
