@@ -44,6 +44,14 @@ body{
   color: rgb(94, 64, 9);
 }
 
+.image {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (prefers-color-scheme: light) {
   body{
     background-color: aqua;
