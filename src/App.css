@@ -52,6 +52,24 @@ body{
   margin-right: auto;
 }
 
+.carousel{
+  display: inline-block;
+}
+
+.carousel-parent{
+  width: 50%;
+  margin-left: 25%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-parent{
+    width: 100%;
+    margin-left: 0%;
+    overflow: hidden;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   body{
     background-color: aqua;
@@ -67,7 +85,7 @@ body{
 
 @media (prefers-color-scheme: dark) {
   body{
-    background-color: rgb(18, 11, 118);
+    background-color: rgb(17, 11, 99);
   }
   .link-button{
     background-color: rgb(255, 230, 0);

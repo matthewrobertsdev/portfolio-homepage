@@ -1,15 +1,16 @@
 import LinkModel from './LinkModel';
+import MediaModel from './MediaModel';
 
 class ProjectInfo{
     title='';
     description='';
-    media=[];
+    mediaModels=[];
     links=[];
 
-    constructor(title, description, media,links){
+    constructor(title, description, mediaModels,links){
         this.title=title;
         this.description=description;
-        this.media=media;
+        this.mediaModels=mediaModels;
         this.links=links;
     }
 }
@@ -17,13 +18,20 @@ class ProjectInfo{
 export default ProjectInfo;
 
 export const keyboard=new ProjectInfo('keyboard', 'A Java Application that Let\'s '+
-'Your Computer Keyboard be a Piano Keyboard', ['./keyboard_view.png'],
+'Your Computer Keyboard be a Piano Keyboard', 
+[new MediaModel('./keyboard_view.png', 'image', 
+'Keyboard\'s view, which is unnecessary for playing.', '90%')],
 [new LinkModel('Website for keyboard', 'https://matthewrobertsdev.github.io/keyboard/'),
 new LinkModel('keyboard Github Repo', 'https://github.com/matthewrobertsdev/keyboard')])
 
 export const bookmarkPage=new ProjectInfo('Bookmark Page', 'A react and redux application '+
 'that let\'s you add, edit, delete, rearrange, save, and load bookmarks, with dark mode and '+
-'light mode', [], [new LinkModel('Bookmark Page', 'https://matthewrobertsdev.github.io/BookmarkPage/index'),
+'light mode',
+[new MediaModel('./bookmark_page_light.png', 'image', 
+'Bookmark page with links in light mode', '100%'),
+new MediaModel('./bookmark_page_dark.png', 'image', 
+'Bookmark page with links in dark mode', '100%')],
+ [new LinkModel('Bookmark Page', 'https://matthewrobertsdev.github.io/BookmarkPage/index'),
 new LinkModel('Bookmark Page Github Repo', 'https://github.com/matthewrobertsdev/bookmark-page')])
 
 export const contactQR=new ProjectInfo('ContactQR', 'A project for an iOS app that lets you '+

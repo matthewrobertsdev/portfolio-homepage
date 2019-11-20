@@ -1,6 +1,9 @@
 import React, { lazy } from 'react';
 import './App.css';
 import kv from './keyboard_view.png'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
 
 function ProjectView(props) {
     return (
@@ -18,9 +21,16 @@ function ProjectView(props) {
 
   function createMedia(props){
     const images = require.context('./', true);
-    return props.projectInfo.media.map((media)=>{
-      let img = images(media);
-      return <img src={img} className='image'/>})
+    const mediaViews=props.projectInfo.mediaModels.map((mediaModel)=>{
+      let src = images(mediaModel.src);
+      if (mediaModel.type='image'){
+        return <img src={src} alt={mediaModel.alt} className='image' style={{'width': mediaModel.widthPercent}}/>} 
+        })
+      if (mediaViews.length<2){
+        return mediaViews
+      } else {
+        return <div className='carousel-parent'><Carousel className='carousel'>{mediaViews}</Carousel></div>
+      }
   }
 
   function createLinkButtons(props){
