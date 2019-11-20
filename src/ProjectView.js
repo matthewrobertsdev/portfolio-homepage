@@ -10,6 +10,7 @@ function ProjectView(props) {
       <div>
         <h2 className="text-color"> {props.projectInfo.title}</h2>
         <h3 className="text-color"> {props.projectInfo.description}</h3>
+        <br></br>
         {createMedia(props)}
         <br></br>
         {createLinkButtons(props)}
@@ -21,15 +22,11 @@ function ProjectView(props) {
 
   function createMedia(props){
     const images = require.context('./', true);
-    const mediaViews=props.projectInfo.mediaModels.map((mediaModel)=>{
+    const mediaModel=props.projectInfo.mediaModel
       let src = images(mediaModel.src);
       if (mediaModel.type='image'){
-        return <img src={src} alt={mediaModel.alt} className='image' style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}/>} 
-        })
-      if (mediaViews.length<2){
-        return mediaViews
-      } else {
-        return <div className='carousel-parent'><Carousel className='carousel'>{mediaViews}</Carousel></div>
+        return <img src={src} alt={mediaModel.alt} className='image' 
+        style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}/>
       }
   }
 
