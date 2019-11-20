@@ -24,7 +24,7 @@ function ProjectView(props) {
     const mediaViews=props.projectInfo.mediaModels.map((mediaModel)=>{
       let src = images(mediaModel.src);
       if (mediaModel.type='image'){
-        return <img src={src} alt={mediaModel.alt} className='image' style={{'width': mediaModel.widthPercent}}/>} 
+        return <img src={src} alt={mediaModel.alt} className='image' style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}/>} 
         })
       if (mediaViews.length<2){
         return mediaViews

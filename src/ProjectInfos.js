@@ -27,10 +27,10 @@ new LinkModel('keyboard Github Repo', 'https://github.com/matthewrobertsdev/keyb
 export const bookmarkPage=new ProjectInfo('Bookmark Page', 'A react and redux application '+
 'that let\'s you add, edit, delete, rearrange, save, and load bookmarks, with dark mode and '+
 'light mode',
-[new MediaModel('./bookmark_page_light.png', 'image', 
-'Bookmark page with links in light mode', '100%'),
-new MediaModel('./bookmark_page_dark.png', 'image', 
-'Bookmark page with links in dark mode', '100%')],
+[/*new MediaModel('./bookmark_page_light.png', 'image', 
+'Bookmark page with links in light mode', '100%'),*/
+new MediaModel('./bookmark_page_dark_mode.png', 'image', 
+'Bookmark page with links in dark mode', '90%')],
  [new LinkModel('Bookmark Page', 'https://matthewrobertsdev.github.io/BookmarkPage/index'),
 new LinkModel('Bookmark Page Github Repo', 'https://github.com/matthewrobertsdev/bookmark-page')])
 
@@ -40,12 +40,15 @@ export const contactQR=new ProjectInfo('ContactQR', 'A project for an iOS app th
 'https://github.com/matthewrobertsdev/ContactQR')])
 
 export const dbConnectionManager=new ProjectInfo('DBConnectionManager for SQL in Java', 
-'A Class for Managing Connections from Java Code to a SQL Database', [],
+'A Class for Managing Connections from Java Code to a SQL Database', [new MediaModel('./db_connection_manager_source.png', 'image', 
+'Some of the source code of DBConnectionManager', '90%')],
 [new LinkModel('DBConnectionManager Github Repo', 
 'https://github.com/matthewrobertsdev/DBConnectionManager-SQL-Java')])
 
 export const softwareDeveloperLinks=new ProjectInfo('Software Developer Link Page', 
-'A Page of Some Links for People Learning Software Development Built with React', [],
+'A Page of Some Links for People Learning Software Development Built with React', 
+[new MediaModel('./dev_links_light_mode.png', 'image', 
+'Developer links page in light mode', '90%')],
 [new LinkModel('Developer Links Page', 
 'https://matthewrobertsdev.github.io/SoftwareDevelopmentLinks/index'),
 new LinkModel('Developer Links Github Repo', 
