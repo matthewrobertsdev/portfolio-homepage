@@ -59,4 +59,4 @@ export const portfolioPage=new ProjectInfo('Portfolio Page Source',
 [new LinkModel('Portfolio Page Source', 
 'https://github.com/matthewrobertsdev/portfolio/tree/source')])
 
-export const projectInfos=[bookmarkPage, keyboard, contactQR, portfolioPage, dbConnectionManager, softwareDeveloperLinks];
+export const projectInfos=[bookmarkPage, keyboard, contactQR, dbConnectionManager, softwareDeveloperLinks, portfolioPage];
