@@ -9,9 +9,10 @@ function ProjectView(props) {
         <h2 className="text-color"> {props.projectInfo.title}</h2>
         <h3 className="text-color"> {props.projectInfo.description}</h3>
         <br></br>
+        {createLinkButtons(props)}
+        <br></br><br></br><br></br>
         {createMedia(props)}
         <br></br>
-        {createLinkButtons(props)}
       </div>
     );
 
