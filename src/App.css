@@ -4,7 +4,14 @@ body{
   margin-left: 5%;
   margin-right: 5%;
 }
-hr{border-color:rgb(112, 77, 11);}
+
+hr{
+  border-top:1px solid rgb(94, 64, 9);
+  border-bottom:1px solid rgb(94, 64, 9);
+  border-left:1px solid rgb(94, 64, 9);
+  border-right:1px solid rgb(94, 64, 9);
+  border-color:rgb(94, 64, 9);
+}
 .title{
   text-align: center;
 }
@@ -62,7 +69,13 @@ hr{border-color:rgb(112, 77, 11);}
   body{
     background-color: aqua;
   }
-  hr{border-color:rgb(112, 77, 11);}
+  hr{
+    border-top:1px solid rgb(94, 64, 9);
+    border-bottom:1px solid rgb(94, 64, 9);
+    border-left:1px solid rgb(94, 64, 9);
+    border-right:1px solid rgb(94, 64, 9);
+    border-color:rgb(94, 64, 9);
+  }
   .link-button{
     background-color: rgb(255, 230, 0);
     color: rgb(112, 77, 11);
@@ -76,7 +89,13 @@ hr{border-color:rgb(112, 77, 11);}
   body{
     background-color: rgb(17, 11, 99);
   }
-  hr{border-color:white}
+  hr{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    border-color:white;
+  }
   .link-button{
     background-color: rgb(255, 230, 0);
     color: rgb(18, 11, 118);
