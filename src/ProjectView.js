@@ -1,9 +1,6 @@
-import React, { lazy } from 'react';
+import React from 'react';
 import './App.css';
-import kv from './keyboard_view.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-
 
 function ProjectView(props) {
     return (
@@ -24,7 +21,7 @@ function ProjectView(props) {
     const images = require.context('./', true);
     const mediaModel=props.projectInfo.mediaModel
       let src = images(mediaModel.src);
-      if (mediaModel.type='image'){
+      if (mediaModel.type==='image'){
         return <img src={src} alt={mediaModel.alt} className='image' 
         style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}/>
       }
