@@ -4,7 +4,7 @@ body{
   margin-left: 5%;
   margin-right: 5%;
 }
-
+hr{border-color:rgb(112, 77, 11);}
 .title{
   text-align: center;
 }
@@ -44,10 +44,25 @@ body{
   color: rgb(94, 64, 9);
 }
 
+.image {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 100%;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   body{
     background-color: aqua;
   }
+  hr{border-color:rgb(112, 77, 11);}
   .link-button{
     background-color: rgb(255, 230, 0);
     color: rgb(112, 77, 11);
@@ -59,8 +74,9 @@ body{
 
 @media (prefers-color-scheme: dark) {
   body{
-    background-color: rgb(18, 11, 118);
+    background-color: rgb(17, 11, 99);
   }
+  hr{border-color:white}
   .link-button{
     background-color: rgb(255, 230, 0);
     color: rgb(18, 11, 118);
