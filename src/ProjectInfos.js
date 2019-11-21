@@ -19,7 +19,7 @@ export default ProjectInfo;
 
 export const teeHee=new ProjectInfo('Tee-Hee for A&X Analytics', 
 'An iPhone app programmed with Swift that lets you view and filter events, '+
-'search events, and which has can save, read, and delete events to and from '+
+'search events, and which can save, read, and delete events to and from '+
 'an in-app calendar', new MediaModel('./Tee-Hee.mp4', 'video',
 'Video demo of Tee-Hee app', '40%'),
 [])
