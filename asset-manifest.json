@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio-homepage/static/css/main.bf5f5314.chunk.css",
-    "main.js": "/portfolio-homepage/static/js/main.a1b884c8.chunk.js",
-    "main.js.map": "/portfolio-homepage/static/js/main.a1b884c8.chunk.js.map",
+    "main.css": "/portfolio-homepage/static/css/main.e2381c58.chunk.css",
+    "main.js": "/portfolio-homepage/static/js/main.d7304175.chunk.js",
+    "main.js.map": "/portfolio-homepage/static/js/main.d7304175.chunk.js.map",
     "runtime-main.js": "/portfolio-homepage/static/js/runtime-main.0782235e.js",
     "runtime-main.js.map": "/portfolio-homepage/static/js/runtime-main.0782235e.js.map",
-    "static/js/2.968bf0e8.chunk.js": "/portfolio-homepage/static/js/2.968bf0e8.chunk.js",
-    "static/js/2.968bf0e8.chunk.js.map": "/portfolio-homepage/static/js/2.968bf0e8.chunk.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/portfolio-homepage/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.51b2c068.chunk.js": "/portfolio-homepage/static/js/2.51b2c068.chunk.js",
+    "static/js/2.51b2c068.chunk.js.map": "/portfolio-homepage/static/js/2.51b2c068.chunk.js.map",
     "index.html": "/portfolio-homepage/index.html",
-    "precache-manifest.81bcef231c2237b72a7454071786399e.js": "/portfolio-homepage/precache-manifest.81bcef231c2237b72a7454071786399e.js",
+    "precache-manifest.e2c4840b4c9c2d1eaa09e88a4127bd6d.js": "/portfolio-homepage/precache-manifest.e2c4840b4c9c2d1eaa09e88a4127bd6d.js",
     "service-worker.js": "/portfolio-homepage/service-worker.js",
-    "static/css/main.bf5f5314.chunk.css.map": "/portfolio-homepage/static/css/main.bf5f5314.chunk.css.map"
+    "static/css/2.3c1ddb0a.chunk.css.map": "/portfolio-homepage/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.e2381c58.chunk.css.map": "/portfolio-homepage/static/css/main.e2381c58.chunk.css.map",
+    "static/media/bookmark_page_dark_mode.png": "/portfolio-homepage/static/media/bookmark_page_dark_mode.8599edaa.png",
+    "static/media/db_connection_manager_source.png": "/portfolio-homepage/static/media/db_connection_manager_source.fc23984b.png",
+    "static/media/dev_links_light_mode.png": "/portfolio-homepage/static/media/dev_links_light_mode.99bb55d5.png",
+    "static/media/give_contact_qr_code.png": "/portfolio-homepage/static/media/give_contact_qr_code.2c5a9074.png",
+    "static/media/keyboard_view.png": "/portfolio-homepage/static/media/keyboard_view.6ae08478.png",
+    "static/media/portfolio_source_code.png": "/portfolio-homepage/static/media/portfolio_source_code.9e5119ec.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0782235e.js",
-    "static/js/2.968bf0e8.chunk.js",
-    "static/css/main.bf5f5314.chunk.css",
-    "static/js/main.a1b884c8.chunk.js"
+    "static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.51b2c068.chunk.js",
+    "static/css/main.e2381c58.chunk.css",
+    "static/js/main.d7304175.chunk.js"
   ]
 }
