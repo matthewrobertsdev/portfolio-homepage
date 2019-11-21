@@ -17,6 +17,13 @@ class ProjectInfo{
 
 export default ProjectInfo;
 
+export const teeHee=new ProjectInfo('Tee-Hee for A&X Analytics', 
+'An iPhone app programmed with Swift that lets you view and filter events, '+
+'search events, and which has CRUD capabilities for events you have saved '+
+'to an in-app calendar', new MediaModel('./Tee-Hee.mp4', 'video',
+'Video demo of Tee-Hee app', '40%'),
+[])
+
 export const keyboard=new ProjectInfo('keyboard', 'A Java Application that Let\'s '+
 'Your Computer Keyboard be a Piano Keyboard', 
 new MediaModel('./keyboard_view.png', 'image', 
@@ -47,7 +54,7 @@ export const dbConnectionManager=new ProjectInfo('DBConnectionManager for SQL in
 export const softwareDeveloperLinks=new ProjectInfo('Software Developer Link Page', 
 'A Page of Some Links for People Learning Software Development Built with React', 
 new MediaModel('./dev_links_light_mode.png', 'image', 
-'Developer links page in light mode', '90%'),
+'Developer links page in light mode', '90%', '650px'),
 [new LinkModel('Developer Links Page', 
 'https://matthewrobertsdev.github.io/SoftwareDevelopmentLinks/index'),
 new LinkModel('Developer Links Github Repo', 
@@ -55,8 +62,8 @@ new LinkModel('Developer Links Github Repo',
 
 export const portfolioPage=new ProjectInfo('Portfolio Page Source', 
 'The Source Files for My Portfolio Page', new MediaModel('./portfolio_source_code.png', 'image',
-'Some of the source code for my portfolio page', '90%'),
+'Some of the source code for my portfolio page', '90%', '650px'),
 [new LinkModel('Portfolio Page Source', 
 'https://github.com/matthewrobertsdev/portfolio/tree/source')])
 
-export const projectInfos=[bookmarkPage, keyboard, contactQR, dbConnectionManager, softwareDeveloperLinks, portfolioPage];
+export const projectInfos=[teeHee, bookmarkPage, keyboard, contactQR, dbConnectionManager, softwareDeveloperLinks, portfolioPage];

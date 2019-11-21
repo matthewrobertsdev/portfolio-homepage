@@ -10,7 +10,6 @@ function ProjectView(props) {
         <h3 className="text-color"> {props.projectInfo.description}</h3>
         <br></br>
         {createLinkButtons(props)}
-        <br></br><br></br><br></br>
         {createMedia(props)}
         <br></br>
       </div>
@@ -20,12 +19,17 @@ function ProjectView(props) {
   }
 
   function createMedia(props){
-    const images = require.context('./', true);
+    const media = require.context('./', true);
     const mediaModel=props.projectInfo.mediaModel
-      let src = images(mediaModel.src);
+      let src = media(mediaModel.src);
       if (mediaModel.type==='image'){
-        return <img src={src} alt={mediaModel.alt} className='image' 
-        style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}/>
+        return <div><br></br><br></br><br></br><img src={src} alt={mediaModel.alt} className='image' 
+        style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}/></div>
+      } else if (mediaModel.type==='video'){
+        return <div><video controls style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}>
+        <source src={src} type="video/mp4"/>
+        Your browser does not support the video tag.
+      </video></div>
       }
   }
 
