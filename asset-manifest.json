@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-homepage/static/css/main.a0cddb3e.chunk.css",
-    "main.js": "/portfolio-homepage/static/js/main.d30508de.chunk.js",
-    "main.js.map": "/portfolio-homepage/static/js/main.d30508de.chunk.js.map",
+    "main.js": "/portfolio-homepage/static/js/main.7a39896b.chunk.js",
+    "main.js.map": "/portfolio-homepage/static/js/main.7a39896b.chunk.js.map",
     "runtime-main.js": "/portfolio-homepage/static/js/runtime-main.0782235e.js",
     "runtime-main.js.map": "/portfolio-homepage/static/js/runtime-main.0782235e.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/portfolio-homepage/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.51b2c068.chunk.js": "/portfolio-homepage/static/js/2.51b2c068.chunk.js",
-    "static/js/2.51b2c068.chunk.js.map": "/portfolio-homepage/static/js/2.51b2c068.chunk.js.map",
+    "static/js/2.67f96fe0.chunk.js": "/portfolio-homepage/static/js/2.67f96fe0.chunk.js",
+    "static/js/2.67f96fe0.chunk.js.map": "/portfolio-homepage/static/js/2.67f96fe0.chunk.js.map",
     "index.html": "/portfolio-homepage/index.html",
-    "precache-manifest.cbc3051a0300ef54548889b2e445d95e.js": "/portfolio-homepage/precache-manifest.cbc3051a0300ef54548889b2e445d95e.js",
+    "precache-manifest.142c9c290bc4a312063bf3a6e3c3bbab.js": "/portfolio-homepage/precache-manifest.142c9c290bc4a312063bf3a6e3c3bbab.js",
     "service-worker.js": "/portfolio-homepage/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/portfolio-homepage/static/css/2.3c1ddb0a.chunk.css.map",
     "static/css/main.a0cddb3e.chunk.css.map": "/portfolio-homepage/static/css/main.a0cddb3e.chunk.css.map",
     "static/media/Tee-Hee.mp4": "/portfolio-homepage/static/media/Tee-Hee.5b78bdf3.mp4",
+    "static/media/Tee-Hee_start_screen.png": "/portfolio-homepage/static/media/Tee-Hee_start_screen.c069efaf.png",
     "static/media/Tee_Hee.mov": "/portfolio-homepage/static/media/Tee_Hee.ff72ca1f.mov",
     "static/media/bookmark_page_dark_mode.png": "/portfolio-homepage/static/media/bookmark_page_dark_mode.8599edaa.png",
     "static/media/db_connection_manager_source.png": "/portfolio-homepage/static/media/db_connection_manager_source.fc23984b.png",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.0782235e.js",
     "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.51b2c068.chunk.js",
+    "static/js/2.67f96fe0.chunk.js",
     "static/css/main.a0cddb3e.chunk.css",
-    "static/js/main.d30508de.chunk.js"
+    "static/js/main.7a39896b.chunk.js"
   ]
 }
