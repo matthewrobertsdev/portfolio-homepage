@@ -1,5 +1,6 @@
 import LinkModel from './LinkModel';
 import MediaModel from './MediaModel';
+import VideoModel from './VideoModel';
 
 class ProjectInfo{
     title='';
@@ -20,8 +21,8 @@ export default ProjectInfo;
 export const teeHee=new ProjectInfo('Tee-Hee for A&X Analytics', 
 'An iPhone app programmed with Swift that lets you view and filter events, '+
 'search events, and which can save, read, and delete events to and from '+
-'an in-app calendar', new MediaModel('./Tee-Hee.mp4', 'video',
-'Video demo of Tee-Hee app', '40%'),
+'an in-app calendar', new VideoModel('./Tee-Hee.mp4', 'video',
+'Video demo of Tee-Hee app', '40%', './Tee-Hee_start_screen.png'),
 [])
 
 export const keyboard=new ProjectInfo('keyboard', 'A Java Application that Let\'s '+

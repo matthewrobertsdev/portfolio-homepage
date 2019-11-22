@@ -26,7 +26,9 @@ function ProjectView(props) {
         return <div><br></br><br></br><br></br><img src={src} alt={mediaModel.alt} className='image' 
         style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}/></div>
       } else if (mediaModel.type==='video'){
-        return <div><video controls style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}>
+        const posterContext = require.context('./', true);
+        let posterSrc = posterContext(mediaModel.posterURL);
+        return <div><video controls poster={posterSrc} style={{'width': mediaModel.widthPercent, 'maxWidth': '650px'}}>
         <source src={src} type="video/mp4"/>
         Your browser does not support the video tag.
       </video></div>
