@@ -22,13 +22,13 @@ export const teeHee=new ProjectInfo('Tee-Hee for A&X Analytics',
 'An iPhone app programmed with Swift that lets you view and filter events, '+
 'search events, and which can save, read, and delete events to and from '+
 'an in-app calendar', new VideoModel('./Tee-Hee.mp4', 'video',
-'Video demo of Tee-Hee app', '40%', './Tee-Hee_start_screen.png'),
+'Video demo of Tee-Hee app', '40%', '200px', './Tee-Hee_start_screen.png'),
 [])
 
 export const keyboard=new ProjectInfo('keyboard', 'A Java Application that Let\'s '+
 'Your Computer Keyboard be a Piano Keyboard', 
 new MediaModel('./keyboard_view.png', 'image', 
-'Keyboard\'s view, which is unnecessary for playing.', '90%'),
+'Keyboard\'s view, which is unnecessary for playing.', '90%', '650px'),
 [new LinkModel('Website for keyboard', 'https://matthewrobertsdev.github.io/keyboard/'),
 new LinkModel('keyboard Github Repo', 'https://github.com/matthewrobertsdev/keyboard')])
 
@@ -36,19 +36,19 @@ export const bookmarkPage=new ProjectInfo('Bookmark Page', 'A react and redux ap
 'that let\'s you add, edit, delete, rearrange, save, and load bookmarks, with dark mode and '+
 'light mode',
 new MediaModel('./bookmark_page_dark_mode.png', 'image', 
-'Bookmark page with links in dark mode', '90%'),
+'Bookmark page with links in dark mode', '90%', '650px'),
  [new LinkModel('Bookmark Page', 'https://matthewrobertsdev.github.io/BookmarkPage/index'),
 new LinkModel('Bookmark Page Github Repo', 'https://github.com/matthewrobertsdev/bookmark-page')])
 
 export const contactQR=new ProjectInfo('ContactQR', 'A project for an iOS app that lets you '+
 'share your contact info using QR codes', new MediaModel('./give_contact_qr_code.png', 'image',
-'UI for giving a contact QR code', '60%'),
+'UI for giving a contact QR code', '60%', '350px'),
 [new LinkModel('ContactQR Github repo', 
 'https://github.com/matthewrobertsdev/ContactQR')])
 
 export const dbConnectionManager=new ProjectInfo('DBConnectionManager for SQL in Java', 
 'A Class for Managing Connections from Java Code to a SQL Database', new MediaModel('./db_connection_manager_source.png', 'image', 
-'Some of the source code of DBConnectionManager', '90%'),
+'Some of the source code of DBConnectionManager', '90%', '650px'),
 [new LinkModel('DBConnectionManager Github Repo', 
 'https://github.com/matthewrobertsdev/DBConnectionManager-SQL-Java')])
 
