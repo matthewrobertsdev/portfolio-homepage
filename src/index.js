@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './view/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 //document.body.style.backgroundColor = "rgb(0, 166, 255)";

@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import {projectInfos} from './ProjectInfos';
-import ProjectView from './ProjectView';
+import './view/App.css';
+import {projectInfos} from './model/ProjectInfos';
+import ProjectView from './view/ProjectView';
 
 function App() {
   return (
