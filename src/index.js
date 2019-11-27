@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './view/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-//document.body.style.backgroundColor = "rgb(0, 166, 255)";
 document.title='Matt Roberts | Developer';
 ReactDOM.render(<App />, document.getElementById('root'));
 
