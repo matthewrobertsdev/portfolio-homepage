@@ -18,6 +18,13 @@ class ProjectInfo{
 
 export default ProjectInfo;
 
+export const clockSuite=new ProjectInfo('Clock Suite for macOS', 
+'A macOS app that has alarms, timers, a resizable clock, and a dock '+
+'clock.  Highly customizable with great use of color for light mode '
++'and dark mode.', new MediaModel('./GreenClockLight.png', 'image', 
+'Keyboard\'s view, which is unnecessary for playing.', '90%', '650px'),
+[])
+
 export const teeHee=new ProjectInfo('Tee-Hee for A&X Analytics', 
 'An iPhone app programmed with Swift that lets you view and filter events, '+
 'search events, and which can save, read, and delete events to and from '+
@@ -67,4 +74,4 @@ export const portfolioPage=new ProjectInfo('Portfolio Page Source',
 [new LinkModel('Portfolio Page Source', 
 'https://github.com/matthewrobertsdev/portfolio/tree/source')])
 
-export const projectInfos=[teeHee, bookmarkPage, keyboard, contactQR, dbConnectionManager, softwareDeveloperLinks, portfolioPage];
+export const projectInfos=[clockSuite, teeHee, bookmarkPage, keyboard, contactQR, dbConnectionManager, softwareDeveloperLinks, portfolioPage];
