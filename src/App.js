@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1 className="title text-color"> Matthew Roberts: Software Developer and Tutor </h1>
-      <a className="link-button grid-button" href="https://github.com/matthewrobertsdev">My Github</a>
+      <a className="link-button grid-button" href="https://github.com/matthewrobertsdev">My GitHub</a>
     <br></br>
     {createProjectViews()}
     </div>

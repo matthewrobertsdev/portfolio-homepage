@@ -21,7 +21,7 @@ export default ProjectInfo;
 export const clockSuite=new ProjectInfo('Clock Suite for macOS', 
 'A macOS app that has alarms, timers, a resizable clock, and a dock '+
 'clock.  Highly customizable with great use of color for light mode '
-+'and dark mode.', new MediaModel('./GreenClockLight.png', 'image', 
++'and dark mode.', new MediaModel('./GreenClockDark.png', 'image', 
 'Keyboard\'s view, which is unnecessary for playing.', '90%', '650px'),
 [])
 
