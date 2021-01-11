@@ -1,35 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-homepage/static/css/main.a0cddb3e.chunk.css",
-    "main.js": "/portfolio-homepage/static/js/main.a0a36532.chunk.js",
-    "main.js.map": "/portfolio-homepage/static/js/main.a0a36532.chunk.js.map",
+    "main.css": "/portfolio-homepage/static/css/main.251b79e4.chunk.css",
+    "main.js": "/portfolio-homepage/static/js/main.cbe1127b.chunk.js",
+    "main.js.map": "/portfolio-homepage/static/js/main.cbe1127b.chunk.js.map",
     "runtime-main.js": "/portfolio-homepage/static/js/runtime-main.0782235e.js",
     "runtime-main.js.map": "/portfolio-homepage/static/js/runtime-main.0782235e.js.map",
-    "static/css/2.3c1ddb0a.chunk.css": "/portfolio-homepage/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.58a56bf3.chunk.js": "/portfolio-homepage/static/js/2.58a56bf3.chunk.js",
-    "static/js/2.58a56bf3.chunk.js.map": "/portfolio-homepage/static/js/2.58a56bf3.chunk.js.map",
+    "static/js/2.8ed6be24.chunk.js": "/portfolio-homepage/static/js/2.8ed6be24.chunk.js",
+    "static/js/2.8ed6be24.chunk.js.map": "/portfolio-homepage/static/js/2.8ed6be24.chunk.js.map",
     "index.html": "/portfolio-homepage/index.html",
-    "precache-manifest.004662de353813de6a71b5d147b4411c.js": "/portfolio-homepage/precache-manifest.004662de353813de6a71b5d147b4411c.js",
+    "precache-manifest.4d4719b05be7a76158ebcca04153adb0.js": "/portfolio-homepage/precache-manifest.4d4719b05be7a76158ebcca04153adb0.js",
     "service-worker.js": "/portfolio-homepage/service-worker.js",
-    "static/css/2.3c1ddb0a.chunk.css.map": "/portfolio-homepage/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.a0cddb3e.chunk.css.map": "/portfolio-homepage/static/css/main.a0cddb3e.chunk.css.map",
+    "static/css/main.251b79e4.chunk.css.map": "/portfolio-homepage/static/css/main.251b79e4.chunk.css.map",
     "static/media/GreenClockDark.png": "/portfolio-homepage/static/media/GreenClockDark.38a7028f.png",
-    "static/media/GreenClockLight2.png": "/portfolio-homepage/static/media/GreenClockLight2.845b575f.png",
     "static/media/Tee-Hee.mp4": "/portfolio-homepage/static/media/Tee-Hee.5b78bdf3.mp4",
     "static/media/Tee-Hee_start_screen.png": "/portfolio-homepage/static/media/Tee-Hee_start_screen.c069efaf.png",
-    "static/media/bookmark_page_dark_mode.png": "/portfolio-homepage/static/media/bookmark_page_dark_mode.7943d2c6.png",
-    "static/media/bookmark_page_dark_mode_2.png": "/portfolio-homepage/static/media/bookmark_page_dark_mode_2.8599edaa.png",
-    "static/media/db_connection_manager_source.png": "/portfolio-homepage/static/media/db_connection_manager_source.fc23984b.png",
-    "static/media/dev_links_light_mode.png": "/portfolio-homepage/static/media/dev_links_light_mode.99bb55d5.png",
-    "static/media/give_contact_qr_code.png": "/portfolio-homepage/static/media/give_contact_qr_code.2c5a9074.png",
-    "static/media/keyboard_view.png": "/portfolio-homepage/static/media/keyboard_view.6ae08478.png",
-    "static/media/portfolio_source_code.png": "/portfolio-homepage/static/media/portfolio_source_code.8257191c.png"
+    "static/media/bookmark_page_dark_mode.png": "/portfolio-homepage/static/media/bookmark_page_dark_mode.7943d2c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0782235e.js",
-    "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.58a56bf3.chunk.js",
-    "static/css/main.a0cddb3e.chunk.css",
-    "static/js/main.a0a36532.chunk.js"
+    "static/js/2.8ed6be24.chunk.js",
+    "static/css/main.251b79e4.chunk.css",
+    "static/js/main.cbe1127b.chunk.js"
   ]
 }
