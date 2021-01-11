@@ -6,11 +6,11 @@ body{
 }
 
 hr{
-  border-top:1px solid rgb(94, 64, 9);
-  border-bottom:1px solid rgb(94, 64, 9);
-  border-left:1px solid rgb(94, 64, 9);
-  border-right:1px solid rgb(94, 64, 9);
-  border-color:rgb(94, 64, 9);
+  border-top:1px solid black;/*rgb(94, 64, 9);*/
+  border-bottom:1px solid black;/*rgb(94, 64, 9);*/
+  border-left:1px solid black;/*rgb(94, 64, 9);*/
+  border-right:1px solid black;/*rgb(94, 64, 9);*/
+  border-color: black;/*rgb(94, 64, 9);*/
 }
 .title{
   text-align: center;
@@ -29,7 +29,7 @@ hr{
 .link-button{
   font-size: 20px;
   background-color: rgb(255, 230, 0);
-  color: rgb(112, 77, 11);
+  color: black;/*rgb(112, 77, 11);*/
   border-radius: 12px;
   padding: 8px 15px;
   text-decoration: none;
@@ -48,7 +48,7 @@ hr{
 }
 
 .text-color{
-  color: rgb(94, 64, 9);
+  color: black;/*rgb(94, 64, 9);*/
 }
 
 .image {
@@ -57,6 +57,16 @@ hr{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.large-image {
+  width: 90%;
+  max-width: 650px;
+}
+
+.iOS-media {
+  width: 40%;
+  max-width: 200px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -70,18 +80,18 @@ hr{
     background-color: aqua;
   }
   hr{
-    border-top:1px solid rgb(94, 64, 9);
-    border-bottom:1px solid rgb(94, 64, 9);
-    border-left:1px solid rgb(94, 64, 9);
-    border-right:1px solid rgb(94, 64, 9);
-    border-color:rgb(94, 64, 9);
+    border-top:1px solid black;/*rgb(94, 64, 9);*/
+  border-bottom:1px solid black;/*rgb(94, 64, 9);*/
+  border-left:1px solid black;/*rgb(94, 64, 9);*/
+  border-right:1px solid black;/*rgb(94, 64, 9);*/
+  border-color: black;/*rgb(94, 64, 9);*/
   }
   .link-button{
     background-color: rgb(255, 230, 0);
-    color: rgb(112, 77, 11);
+    color: black; /*rgb(112, 77, 11);*/
   }
   .text-color{
-    color: rgb(94, 64, 9);
+    color: black;/*rgb(94, 64, 9);*/
   }
 }
 

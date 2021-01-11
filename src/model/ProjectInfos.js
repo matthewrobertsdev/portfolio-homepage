@@ -25,6 +25,10 @@ export const clockSuite=new ProjectInfo('Clock Suite for macOS',
 'Keyboard\'s view, which is unnecessary for playing.', '90%', '650px'),
 [])
 
+export const clockSuiteDownloadOnAppStore=new ProjectInfo('', new MediaModel('./DownloadOnMacAppStore.png', 'image', 
+'Download on the Mac App Store', '90%', '80px'),
+[])
+
 export const teeHee=new ProjectInfo('Tee-Hee for A&X Analytics', 
 'An iPhone app programmed with Swift that lets you view and filter events, '+
 'search events, and which can save, read, and delete events to and from '+
