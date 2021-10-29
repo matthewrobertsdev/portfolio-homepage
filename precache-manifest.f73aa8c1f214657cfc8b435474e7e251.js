@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3a84794c24568477addd10564283853",
+    "revision": "732c6ed51fe53f1b14eef1f654b0f42f",
     "url": "/portfolio-homepage/index.html"
   },
   {
-    "revision": "aa9a149751a3dcd1ae35",
+    "revision": "ce4434ed5b6f13623ba1",
     "url": "/portfolio-homepage/static/css/main.780f3901.chunk.css"
   },
   {
-    "revision": "093f2ff1dfba808b63e3",
-    "url": "/portfolio-homepage/static/js/2.a4fea6ed.chunk.js"
+    "revision": "77f8301581dda39ebe3e",
+    "url": "/portfolio-homepage/static/js/2.bd52da04.chunk.js"
   },
   {
-    "revision": "aa9a149751a3dcd1ae35",
-    "url": "/portfolio-homepage/static/js/main.2cc6f0f7.chunk.js"
+    "revision": "ce4434ed5b6f13623ba1",
+    "url": "/portfolio-homepage/static/js/main.69d3c7c3.chunk.js"
   },
   {
     "revision": "2f5c8c5d5a1ea2f815a1",
     "url": "/portfolio-homepage/static/js/runtime-main.0782235e.js"
+  },
+  {
+    "revision": "04df0a07da435777cdfbe53afdaf1b8c",
+    "url": "/portfolio-homepage/static/media/CeleritasAppsHomePage.04df0a07.png"
   },
   {
     "revision": "90d2223573e47828557ea3c93daeb901",
