@@ -12,6 +12,7 @@ import ContactCardsQRCode from './media/ContactCardsQRCode.png'
 import TeeHeeVideo from './media/Tee-Hee.mp4'
 import TeeHeeScreenShot from './media/Tee-Hee_start_screen.png'
 import BookmarkPageScreenShot from './media/bookmark_page_dark_mode.png'
+import CeleritasAppsHomePage from './media/CeleritasAppsHomePage.png'
 
 function App() {
   return (
@@ -71,6 +72,16 @@ function App() {
       <LinkButton url='https://github.com/matthewrobertsdev/bookmark-page'
       name='Bookmark Page GitHub Repo'/>
       <Spacer/>
+      <ProjectHeadings title='Celeritas Apps Homepage' 
+      description="A responsive React homepage for my apps with dark mode and light mode."/>
+      <ImageView src={CeleritasAppsHomePage}
+      alt="Celeritas Apps homepage"
+      classProp='large-image'/>
+      <br/>
+      <LinkButton url='https://matthewrobertsdev.github.io/celeritasapps/#/'
+      name='Celeritas Apps Homepage'/>
+      <LinkButton url='https://github.com/matthewrobertsdev/portfolio-homepage'
+      name='Celeritas Apps Homepage GitHub Repo'/>
     </main>
     <footer>
       <h3 className='text-color'>Copyright © 2020-2021 Matt Roberts</h3>
