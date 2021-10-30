@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-homepage/static/css/main.780f3901.chunk.css",
-    "main.js": "/portfolio-homepage/static/js/main.10f19937.chunk.js",
-    "main.js.map": "/portfolio-homepage/static/js/main.10f19937.chunk.js.map",
+    "main.js": "/portfolio-homepage/static/js/main.60589017.chunk.js",
+    "main.js.map": "/portfolio-homepage/static/js/main.60589017.chunk.js.map",
     "runtime-main.js": "/portfolio-homepage/static/js/runtime-main.0782235e.js",
     "runtime-main.js.map": "/portfolio-homepage/static/js/runtime-main.0782235e.js.map",
     "static/js/2.bd52da04.chunk.js": "/portfolio-homepage/static/js/2.bd52da04.chunk.js",
     "static/js/2.bd52da04.chunk.js.map": "/portfolio-homepage/static/js/2.bd52da04.chunk.js.map",
     "index.html": "/portfolio-homepage/index.html",
-    "precache-manifest.eec2cc6d2823b28ee4ad8da3521ef3db.js": "/portfolio-homepage/precache-manifest.eec2cc6d2823b28ee4ad8da3521ef3db.js",
+    "precache-manifest.24ab6161b5fdbf5ef8ecd1e3db47b5dc.js": "/portfolio-homepage/precache-manifest.24ab6161b5fdbf5ef8ecd1e3db47b5dc.js",
     "service-worker.js": "/portfolio-homepage/service-worker.js",
     "static/css/main.780f3901.chunk.css.map": "/portfolio-homepage/static/css/main.780f3901.chunk.css.map",
     "static/media/CeleritasAppsHomePage.png": "/portfolio-homepage/static/media/CeleritasAppsHomePage.04df0a07.png",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.0782235e.js",
     "static/js/2.bd52da04.chunk.js",
     "static/css/main.780f3901.chunk.css",
-    "static/js/main.10f19937.chunk.js"
+    "static/js/main.60589017.chunk.js"
   ]
 }
